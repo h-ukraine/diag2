@@ -1,0 +1,141 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  color: #ECEDF0;
+}
+
+
+body{
+         // max-width: 200; 
+         background-color: rgb(17, 14, 47);
+         padding-top: 11%;
+         position: relative;
+}
+         .container {
+               background-color: #545161;
+               margin: 0px auto;            
+               padding-top: 0%;
+               font-family: Arial, Helvetica, sans-serif;
+               // font-family: Arial, Helvetica, sans-serif; 
+               position: relative;
+               // height: 600px; 
+               max-width: 600px;
+               text-align: center;
+               vertical-align: middle;
+               border: 1px solid #858568;
+               position: relative;
+               // width: 500px;
+               height: 400px;
+          }
+
+
+
+main{
+   // background-color: rgb(113, 94, 139);
+   // position: relative;
+   // padding-top: 10px;
+   // padding-bottom: 10px;
+
+
+
+   max-width: 90%;
+   // height: 70px;
+   border-width: 5px;
+   border-color: red;
+   margin: 10px auto;
+   // margin: 0px auto; 
+   
+}
+
+.reference0 {
+   //padding-top: 10px;
+   // padding-bottom: 10px;
+   
+   bottom: 10px;
+    margin: 0px auto ;
+    max-width: 150px;
+    height: auto;
+    padding-bottom: 2px;
+   // padding-bottom: 20px;
+   // height: 100px;
+   background-color: rgb(33, 52, 78);
+  position: absolute;
+  z-index: 2;
+  top:100;
+  left:45%;
+  
+}
+
+// .bbb{
+// background-color: rgb(5, 5, 93);
+// }
+$t :100px;
+$w : 37%; 
+$h: 80px;
+// $p: 18%;
+
+.o2{
+   position: absolute;
+   top: $t;
+   left: 3px;
+   font-size: 24px;
+   z-index: 5;
+   height: $h;
+   line-height:$h;
+   background-color: rgba(0, 77, 128, 0.534);
+ 
+ }
+ .rh{
+   position: absolute;
+   top: $t;
+   right:3px;
+   font-size: 24px;
+   z-index: 5;
+   height: $h;
+   line-height:$h;
+   background-color: rgba(0, 77, 128, 0.534);
+ }
+
+.uuu{
+   // margin: 20px ;
+   position: absolute;
+   left: 2px;
+   top:100px;
+   width: $w;
+   height: $h;
+
+   line-height:$h;
+   // border-width: 10px;
+   // border-color: rgb(175, 180, 199);
+   color: rgb(85, 199, 32);
+   background-color: rgb(23, 21, 37);
+   // z-index: 1;
+   // vertical-align: middle;
+   // text-align: center;
+   // padding-top: 20px;
+   font-size: 30px;
+
+   padding-left: 30px;
+   border-radius: 0.8rem ; 
+   
+}
+
+.uuu1{ @extend  .uuu;
+   right: 2px;
+   left:auto;
+   z-index:2;
+   // text-align: left;
+   // width:auto;
+   // width:30px;
+   padding-right: 20px;
+}
+
+
+
+
+
+
